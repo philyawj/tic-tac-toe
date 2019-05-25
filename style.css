@@ -1,0 +1,68 @@
+#board,
+.msg-container {
+  width: 303px;
+  margin-left: auto;
+  margin-right: auto;
+}
+#game-over-msg,
+#error-msg,
+#btn-play-again {
+  display: none;
+}
+img {
+  width: 94px;
+  height: 94px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+table {
+  border-collapse: collapse;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+td:hover {
+  cursor: pointer;
+}
+
+td {
+  width: 100px;
+  border: 3px solid #222;
+  padding: 0;
+  margin: 0;
+}
+
+td::after {
+  content: "";
+  display: block;
+  margin-top: 94px;
+}
+td.no-before::after {
+  display: none;
+}
+
+td {
+  border: 3px solid #222;
+  width: 100px;
+  padding: 0;
+  margin: 0;
+}
+
+td:first-of-type {
+  border-left-color: transparent;
+  border-top-color: transparent;
+}
+
+td:nth-of-type(2) {
+  border-top-color: transparent;
+}
+
+td:nth-of-type(3) {
+  border-right-color: transparent;
+  border-top-color: transparent;
+}
+
+tr:nth-of-type(3) td {
+  border-bottom-color: transparent;
+}

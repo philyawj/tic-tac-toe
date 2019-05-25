@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <title>Tic Tac Toe</title>
+  </head>
+  <body>
+    <div class="mt-5">
+      <table id="board">
+        <tr id="row-1">
+          <td id="one"></td>
+          <td id="two"></td>
+          <td id="three"></td>
+        </tr>
+        <tr id="row-2">
+          <td id="four"></td>
+          <td id="five"></td>
+          <td id="six"></td>
+        </tr>
+        <tr id="row-3">
+          <td id="seven"></td>
+          <td id="eight"></td>
+          <td id="nine"></td>
+        </tr>
+      </table>
+
+      <div class="msg-container mt-3">
+        <div class="alert alert-warning" role="alert" id="error-msg"></div>
+        <div class="alert " role="alert" id="game-over-msg"></div>
+        <button class="btn btn-dark btn-block" id="btn-play-again">
+          Play Again
+        </button>
+      </div>
+    </div>
+  </body>
+  <script src="app.js"></script>
+</html>
